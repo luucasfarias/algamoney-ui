@@ -4,20 +4,26 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 
 import { ButtonModule } from 'primeng/components/button/button';
-import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { TableModule } from 'primeng/components/table/table';
+import { InputTextModule } from 'primeng/components/inputtext/inputtext';
+import { TooltipModule } from 'primeng/components/tooltip/tooltip';
+import { ReleaseSearchComponent } from './release-search/release-search.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ReleaseSearchComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     InputTextModule,
     ButtonModule,
-    TableModule
+    TableModule,
+    TooltipModule
   ],
   providers: [],
   bootstrap: [AppComponent]
