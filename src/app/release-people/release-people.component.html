@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="ui-g">
+    <div class="ui-g-12">
+      <h1>Pessoas</h1>
+    </div>
+
+    <div class="ui-g-12 ui-fluid">
+      <label>Nome</label>
+      <input type="text" name="namePeople" pInputText>
+    </div>
+
+    <div class="ui-g-12">
+      <button pButton type="submit" label="Pesquisar"></button>
+    </div>
+  </div>
+
+  <div class="ui-g">
+    <div class="ui-g-12">
+      <p-table [value]="peoples" [paginator]="true" [rows]="4" [responsive]="true">
+        <ng-template pTemplate="header">
+          <tr>
+            <th>Nome</th>
+            <th>Cidade</th>
+            <th>Estado</th>
+            <th>Status</th>
+            <th></th>
+          </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-people>
+          <tr>
+            <td>{{ people.nome }}</td>
+            <td>{{ people.cidade }}</td>
+            <td>{{ people.estado }}</td>
+            <td>
+              <a href="#" class="link-status" [pTooltip]="people.ativo ? 'Desativar' : 'Ativar'" tooltipPosition="top">
+                {{ people.ativo ? 'Ativo' : 'Inativo' }}
+              </a>
+            </td>
+            <td class="col-action">
+              <a pButton icon="pi pi-pencil" class="ui-button-primary separete-button" pTooltip="Editar" tooltipPosition="top"></a>
+              <button pButton icon="pi pi-trash" class="ui-button-primary separete-button" pTooltip="Excluir" tooltipPosition="top"></button>
+            </td>
+          </tr>
+        </ng-template>
+      </p-table>
+    </div>
+
+    <div class="ui-g-12">
+      <a href="#" pButton label="Novo Pessoa"></a>
+    </div>
+  </div>
+</div>
