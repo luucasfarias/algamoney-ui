@@ -20,8 +20,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    InputTextModule,
     ButtonModule,
+    InputTextModule,
     TableModule,
     TooltipModule
   ],

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-release-search',
   templateUrl: './release-search.component.html',
-  styleUrls: ['./release-search.component.css']
+  styleUrls: ['./release-search.component.css'],
 })
 export class ReleaseSearchComponent implements OnInit {
 
