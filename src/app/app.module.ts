@@ -9,20 +9,22 @@ import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { ReleaseSearchComponent } from './release-search/release-search.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ReleasePeopleComponent } from './release-people/release-people.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ReleaseSearchComponent,
-    NavbarComponent
+    NavbarComponent,
+    ReleasePeopleComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     ButtonModule,
-    InputTextModule,
     TableModule,
+    InputTextModule,
     TooltipModule
   ],
   providers: [],
