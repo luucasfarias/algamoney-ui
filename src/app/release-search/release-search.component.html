@@ -39,9 +39,9 @@
           <tr>
             <td>{{ release.pessoa }}</td>
             <td>{{ release.descricao }}</td>
-            <td class="col-data">{{ release.dataVencimento }}</td>
-            <td class="col-data">{{ release.dataPagamento }}</td>
-            <td class="col-valor" [style.color]="release.tipo === 'DESPESA' ? 'red' : 'blue'">{{ release.valor }}</td>
+            <td class="col-data">{{ release.dataVencimento | date: 'dd/MM/y' }}</td>
+            <td class="col-data">{{ release.dataPagamento | date: 'dd/MM/y'}}</td>
+            <td class="col-valor" [style.color]="release.tipo === 'DESPESA' ? 'red' : 'blue'">{{ release.valor | number: '1.2-2' }}</td>
             <td class="col-action">
               <a pButton icon="pi pi-pencil" class="ui-button-primary separete-button" pTooltip="Editar" tooltipPosition="top"></a>
               <button pButton icon="pi pi-trash" class="ui-button-primary separete-button" pTooltip="Excluir" tooltipPosition="top"></button>
