@@ -7,17 +7,23 @@
 
       <div class="ui-g-12 ui-fluid">
         <label>Nome</label>
-        <input type="text" name="namePeople" pInputText>
+        <input type="text" name="namePeople" ngModel #namePeople="ngModel" required pInputText>
+
+        <app-message [control]="namePeople" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-9 ui-fluid">
         <label>Logradouro</label>
-        <input type="text" name="logradouro" pInputText>
+        <input type="text" name="logradouro" ngModel #logradouro="ngModel" required pInputText>
+
+        <app-message [control]="logradouro" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-3 ui-fluid">
         <label>Número</label>
-        <input type="text" name="numberHouse" pInputText>
+        <input type="text" name="numberHouse" ngModel #numberHouse="ngModel" required pInputText>
+
+        <app-message [control]="numberHouse" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-4 ui-fluid">
@@ -27,22 +33,30 @@
 
       <div class="ui-g-12 ui-md-4 ui-fluid">
         <label>Bairro</label>
-        <input type="text" name="district" pInputText>
+        <input type="text" name="district" ngModel #district="ngModel" required pInputText>
+
+        <app-message [control]="district" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-4 ui-fluid">
         <label>CEP</label>
-        <p-inputMask mask="99.999-999"></p-inputMask>
+        <p-inputMask mask="99.999-999" name="cep" ngModel #cep="ngModel" required></p-inputMask>
+
+        <app-message [control]="cep" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Cidade</label>
-        <input type="text" name="city" pInputText>
+        <input type="text" name="city" ngModel #city="ngModel" required pInputText>
+
+        <app-message [control]="city" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12 ui-md-6 ui-fluid">
         <label>Estado</label>
-        <input type="text" name="state" pInputText>
+        <input type="text" name="state" ngModel #state="ngModel" required pInputText>
+
+        <app-message [control]="state" error="required" text="Campo obrigatório"></app-message>
       </div>
 
       <div class="ui-g-12">
