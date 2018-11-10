@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { ButtonModule } from 'primeng/components/button/button';
@@ -20,6 +21,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { ReleasePeopleComponent } from './release-people/release-people.component';
 import { ReleaseRegisterComponent } from './release-register/release-register.component';
 import { RegisterPeopleComponent } from './register-people/register-people.component';
+import { MessageComponent } from './message/message.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +30,13 @@ import { RegisterPeopleComponent } from './register-people/register-people.compo
     NavbarComponent,
     ReleasePeopleComponent,
     ReleaseRegisterComponent,
-    RegisterPeopleComponent
+    RegisterPeopleComponent,
+    MessageComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule,
     ButtonModule,
     InputTextareaModule,
     InputTextModule,

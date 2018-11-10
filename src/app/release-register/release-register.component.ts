@@ -7,17 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReleaseRegisterComponent implements OnInit {
 
-  tipos = [
+  option = [
     { label: 'Receita', value: 'RECEITA' },
     { label: 'Despesa', value: 'DESPESA' }
   ];
 
-  categorys = [
+  categories = [
     { label: 'Alimentação', value: 1 },
     { label: 'Transporte', value: 2 },
   ];
 
-  peoples = [
+  people = [
     { label: 'Lucas Farias', value: 1 },
     { label: 'Maria da Silva', value: 2 },
     { label: 'Joaquina Pereira', value: 3 }
