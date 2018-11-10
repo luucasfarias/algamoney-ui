@@ -8,6 +8,11 @@ import { TableModule } from 'primeng/components/table/table';
 import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { TooltipModule } from 'primeng/components/tooltip/tooltip';
 import { InputTextareaModule } from 'primeng/components/inputtextarea/inputtextarea';
+import {CalendarModule} from 'primeng/components/calendar/calendar';
+import {SelectButtonModule} from 'primeng/selectbutton';
+import {DropdownModule} from 'primeng/dropdown';
+
+import { CurrencyMaskModule } from 'ng2-currency-mask';
 
 import { ReleaseSearchComponent } from './release-search/release-search.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -26,10 +31,14 @@ import { ReleaseRegisterComponent } from './release-register/release-register.co
     BrowserModule,
     BrowserAnimationsModule,
     ButtonModule,
-    InputTextModule,
     InputTextareaModule,
+    InputTextModule,
     TableModule,
-    TooltipModule
+    TooltipModule,
+    CalendarModule,
+    SelectButtonModule,
+    DropdownModule,
+    CurrencyMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]
