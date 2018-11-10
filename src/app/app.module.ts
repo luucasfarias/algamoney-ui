@@ -18,6 +18,7 @@ import { ReleaseSearchComponent } from './release-search/release-search.componen
 import { NavbarComponent } from './navbar/navbar.component';
 import { ReleasePeopleComponent } from './release-people/release-people.component';
 import { ReleaseRegisterComponent } from './release-register/release-register.component';
+import { RegisterPeopleComponent } from './register-people/register-people.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ReleaseRegisterComponent } from './release-register/release-register.co
     ReleaseSearchComponent,
     NavbarComponent,
     ReleasePeopleComponent,
-    ReleaseRegisterComponent
+    ReleaseRegisterComponent,
+    RegisterPeopleComponent
   ],
   imports: [
     BrowserModule,
