@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReleaseRegisterComponent implements OnInit {
 
+  tipos = [
+    { label: 'Receita', value: 'RECEITA' },
+    { label: 'Despesa', value: 'DESPESA' }
+  ];
+
+  categorys = [
+    { label: 'Alimentação', value: 1 },
+    { label: 'Transporte', value: 2 },
+  ];
+
+  peoples = [
+    { label: 'Lucas Farias', value: 1 },
+    { label: 'Maria da Silva', value: 2 },
+    { label: 'Joaquina Pereira', value: 3 }
+  ];
   constructor() { }
 
   ngOnInit() {
