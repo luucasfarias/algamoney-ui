@@ -1,0 +1,114 @@
+{
+  "releases": [
+    {
+      "id": 1,
+      "descricao": "Salário mensal",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 6500,
+      "tipo": "RECEITA",
+      "categoria": "Lazer",
+      "pessoa": "João Silva"
+    },
+    {
+      "id": 7,
+      "descricao": "Bahamas",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 500,
+      "tipo": "RECEITA",
+      "categoria": "Lazer",
+      "pessoa": "Henrique Medeiros"
+    },
+    {
+      "id": 5,
+      "descricao": "DMAE",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 200.3,
+      "tipo": "DESPESA",
+      "categoria": "Supermercado",
+      "pessoa": "Josué Mariano"
+    },
+    {
+      "id": 9,
+      "descricao": "Despachante",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 123.64,
+      "tipo": "DESPESA",
+      "categoria": "Supermercado",
+      "pessoa": "Leonardo Oliveira"
+    },
+    {
+      "id": 6,
+      "descricao": "Extra",
+      "dataVencimento": "2017-03-10",
+      "dataPagamento": "2017-03-10",
+      "valor": 1010.32,
+      "tipo": "RECEITA",
+      "categoria": "Farmácia",
+      "pessoa": "Pedro Barbosa"
+    },
+    {
+      "id": 8,
+      "descricao": "Top Club",
+      "dataVencimento": "2017-03-10",
+      "dataPagamento": "2017-03-10",
+      "valor": 400.32,
+      "tipo": "DESPESA",
+      "categoria": "Farmácia",
+      "pessoa": "Carlos Santana"
+    },
+    {
+      "id": 13,
+      "descricao": "Instrumentos",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 1040.32,
+      "tipo": "DESPESA",
+      "categoria": "Farmácia",
+      "pessoa": "Pedro Santos"
+    },
+    {
+      "id": 14,
+      "descricao": "Café",
+      "dataVencimento": "2017-04-10",
+      "dataPagamento": "2017-04-10",
+      "valor": 4.32,
+      "tipo": "DESPESA",
+      "categoria": "Farmácia",
+      "pessoa": "Maria Rita"
+    },
+    {
+      "id": 15,
+      "descricao": "Lanche",
+      "dataVencimento": "2017-06-10",
+      "dataPagamento": null,
+      "valor": 10.2,
+      "tipo": "DESPESA",
+      "categoria": "Farmácia",
+      "pessoa": "João Silva"
+    },
+    {
+      "id": 10,
+      "descricao": "Pneus",
+      "dataVencimento": "2017-04-10",
+      "dataPagamento": "2017-04-10",
+      "valor": 665.33,
+      "tipo": "RECEITA",
+      "categoria": "Outros",
+      "pessoa": "Isabela Martins"
+    },
+    {
+      "id": 12,
+      "descricao": "Eletrônicos",
+      "dataVencimento": "2017-04-10",
+      "dataPagamento": "2017-04-10",
+      "valor": 2100.32,
+      "tipo": "DESPESA",
+      "categoria": "Outros",
+      "pessoa": "Ricardo Pereira"
+    }
+  ]
+}
